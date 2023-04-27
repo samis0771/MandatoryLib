@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorldConfig>
+	<MaxSizeX>20</MaxSizeX>
+	<MaxSizeY>20</MaxSizeY>
+	<Creature>
+			<CName>Player</CName>
+			<LifePoints>100</LifePoints>
+			<Position>
+				<CX>5</CX>
+				<CY>5</CY>
+			</Position>
+			<Attacks>
+				<WRemovable>true</WRemovable>
+				<WLootable>false</WLootable>
+				<WName>Sword</WName>
+				<Position>
+					<WX>6</WX>
+					<WY>5</WY>
+				</Position>
+				<WHitPoints>20</WHitPoints>
+				<WRange>1</WRange>
+				<WDescription>A sharp sword</WDescription>
+			</Attacks>
+			<Defences>
+				<DefenceObject>
+					<DRemovable>true</DRemovable>
+					<DLootable>false</DLootable>
+					<DName>Shield</DName>
+					<Position>
+						<DX>4</DX>
+						<DY>5</DY>
+					</Position>
+					<ReduceHitPoints>10</ReduceHitPoints>
+					<DDescription>A sturdy shield</DDescription>
+				</DefenceObject>
+			</Defences>
+		</Creature>
+</WorldConfig>
